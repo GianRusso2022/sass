@@ -1,0 +1,57 @@
+@media (max-width: 650px) {
+  body header {
+    label {
+      display: flex;
+      justify-content: center;
+    }
+
+    img {
+      width: 45px;
+    }
+  }
+
+  .menu {
+    position: absolute;
+    background-color: #1a1a1aaa;
+    width: 100%;
+    transition: all 0.5s;
+    transform: translateX(-100%);
+    z-index: 1;
+
+    ul {
+      flex-direction: column;
+    }
+
+    li {
+      border-top: 1px solid #fff;
+    }
+  }
+
+  #btn-menu:checked~.menu {
+    transform: translateX(0%);
+  }
+
+  .seccion3 {
+    flex-direction: column;
+  }
+
+  .contenedor-general {
+    .subtitulo {
+      font-size: 1.6rem;
+    }
+
+    .parrafo {
+      font-size: 1.2rem;
+    }
+  }
+
+  .contenedor-banner {
+    h2 {
+      font-size: 1.9rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+    }
+  }
+}
