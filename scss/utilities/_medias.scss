@@ -1,36 +1,36 @@
+@media (min-width:900px) {
+  body footer img {
+    width: 30%;
+  }
+
+  .mateo img {
+    width: 350px;
+    margin-bottom: 5rem;
+  }
+
+  .tituloytexto h2 {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 2rem;
+    margin: 30px;
+    text-shadow: 3px 5px 2px #474747;
+  }
+
+  .tituloytexto h3 {
+    color: #fff;
+    margin: 30px;
+    font-size: 3rem;
+  }
+
+  .tituloytexto p {
+    font-size: 1.5rem;
+    text-align: left;
+    margin: 25px;
+    line-height: 50px;
+  }
+}
+
 @media (max-width: 650px) {
-  body header {
-    label {
-      display: flex;
-      justify-content: center;
-    }
-
-    img {
-      width: 45px;
-    }
-  }
-
-  .menu {
-    position: absolute;
-    background-color: #1a1a1aaa;
-    width: 100%;
-    transition: all 0.5s;
-    transform: translateX(-100%);
-    z-index: 1;
-
-    ul {
-      flex-direction: column;
-    }
-
-    li {
-      border-top: 1px solid #fff;
-    }
-  }
-
-  #btn-menu:checked~.menu {
-    transform: translateX(0%);
-  }
-
   .seccion3 {
     flex-direction: column;
   }
@@ -53,5 +53,18 @@
     h1 {
       font-size: 2.5rem;
     }
+  }
+
+  .gianluca img {
+    margin-bottom: 5rem;
+    width: 350px;
+  }
+
+  .mateo .imgMateo img {
+    width: 250px;
+  }
+
+  .nuestrosPerros .imagenes {
+    grid-template-columns: repeat(1, 1fr);
   }
 }

@@ -1,0 +1,100 @@
+.teInvitamos {
+    @include flex(flex, column, center, space-around);
+    overflow: hidden;
+    height: 100vh;
+    min-height: 100%;
+    width: 100%;
+    background-color: rgb(65, 123, 231);
+
+    h1 {
+        text-align: center;
+        color: #fff;
+        margin-top: 10px;
+        font-size: 2rem;
+        text-shadow: $sombreado;
+    }
+}
+
+.teInvitamos .logoSection {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    img {
+        width: 33%;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 8rem;
+    }
+
+    .img-logo {
+        animation-name: pulso;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-duration: 20s;
+    }
+
+    @keyframes pulso {
+        from {
+            transform: rotate(0);
+        }
+
+        to {
+            transform: rotate(360deg);
+        }
+    }
+}
+
+.gianluca {
+    @include flex(flex, column, center, space-around);
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(55, 104, 197);
+}
+
+.tituloytexto {
+    text-align: center;
+    line-height: 2rem;
+    margin: 2rem;
+
+    h2 {
+        color: #fff;
+        margin-top: 10px;
+        font-size: 1.2rem;
+        margin-top: 45px;
+        text-shadow: $sombreado;
+    }
+
+    h3 {
+        color: #fff;
+        margin-top: 10px;
+        font-size: 1.2rem;
+        margin-top: 45px;
+        text-shadow: $sombreado;
+    }
+
+    p {
+        font-size: 1.0rem;
+        text-align: center;
+        margin: 25px;
+        color: rgb(255, 246, 246);
+        text-shadow: $sombreado;
+
+    }
+}
+
+.mateo {
+    @include flex(flex, column, center, space-between);
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(46, 88, 167);
+}
+
+.imgMateo img {
+    width: 350px;
+    margin-bottom: 40px;
+}

@@ -1,0 +1,27 @@
+.nuestrosPerros {
+    background-color: antiquewhite;
+    height: 100%;
+    padding: 25px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.imagenes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(auto-fill, 1fr);
+    gap: 1rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    height: 100%;
+    width: auto;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.perro:hover {
+    transform: scale(1.1);
+}

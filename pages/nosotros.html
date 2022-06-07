@@ -11,25 +11,45 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/main.css">
     <link rel="shortcut icon" href="img/icono.png" type="image/x-icon">
-    <title>LosPaseos-Nosotros</title>
+    <title>LosPaseos Nosotros</title>
+    <meta name="description"
+        content="Los Paseos ofrece un exelente y confiable servicio de paseo de perros en la ciudad de Comodoro Rivadavia">
+    <meta name="keywords"
+        content="PERROS,PASEO DE PERROS,SERVICIO DE PASEOS,COMODORO RIVADAVIA,PASEADORES,PASEOS CANINOS,NOTICIA">
 </head>
 
 <body>
-    <header>
-        <input type="checkbox" id="btn-menu">
-        <label for="btn-menu">
-            <img src="../img/nav.png" alt="barra de nav">
-        </label>
-        <nav class="menu">
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="nosotros.html">Sobre nosotros</a></li>
-                <li><a href="perros.html">Nuestros perros</a></li>
-                <li><a href="recorrido.html">Zonas</a></li>
-                <li><a href="consultar.html">Consultar</a></li>
-            </ul>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">LosPaseos</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Sobre nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="perros.html">Nuestros perros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="recorrido.html">Zonas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="consultar.html">Consultar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -45,34 +65,40 @@
         <section class="gianluca">
             <div class="tituloytexto">
                 <h2>Gianluca</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nam aperiam amet est. Molestiae quisquam
-                    doloremque, provident facere, esse veritatis earum nisi veniam rerum magnam quis assumenda molestias
-                    aliquid
-                    officia!</p>
+                <p>Gianluca es un joven de 24 años que comenzó a pasear perros en el año 2017. Se caracteriza por ser
+                    una persona muy responsable y paciente. Es amante de los perros y los trata con mucho cariño. En el
+                    año 2019 le da nombre a su emprendimiento “Los Paseos” y en la actualidad realiza su trabajo con su
+                    ayudante de confianza Mateo.
+                    Actualmente ambos cuentan con mas de 50 perros paseando alrededor de la ciudad de Comodoro
+                    Rivadavia.
+                </p>
             </div>
-            <div class="card">
-                <div class="card-header">
-                    Entrevista a uno de nuestros paseadores para ADN SUR
+            <div class="container-fluid d-flex flex-column">
+                <img src="../img/fotodegian.jpeg" alt="foto de Gianluca" class="align-self-center">
+                <div class="card mb-5 m-3 align-self-center">
+                    <div class="card-header">
+                        Entrevista a uno de nuestros paseadores para ADN SUR
+                    </div>
+                    <div class="card-body m-3">
+                        <h5 class="card-title"></h5>
+                        <p class="card-text">La experiencia de Gianluca como paseador de perros en Comodoro y un trabajo
+                            que
+                            le permite "vivir de esto".</p>
+                        <a href="https://www.adnsur.com.ar/especiales/la-experiencia-de-gian-luca-como-paseador-de-perros-en-comodoro-y-un-trabajo-que-le-permite--vivir-de-esto-_a6287f08fa03aacf02ab9616c?fbclid=IwAR1HsQmaXVFPdPIGR3DsvbiRYLiHjeE8SK7FRY4zA4lXtHE1-RKJ3Bmz2ks"
+                            class="btn btn-primary" target="_blank">Ir a la nota</a>
+                    </div>
                 </div>
-                <div class="card-body">
-                    <h5 class="card-title"></h5>
-                    <p class="card-text">La experiencia de Gianluca como paseador de perros en Comodoro y un trabajo que
-                        le permite "vivir de esto".</p>
-                    <a href="https://www.adnsur.com.ar/especiales/la-experiencia-de-gian-luca-como-paseador-de-perros-en-comodoro-y-un-trabajo-que-le-permite--vivir-de-esto-_a6287f08fa03aacf02ab9616c?fbclid=IwAR1HsQmaXVFPdPIGR3DsvbiRYLiHjeE8SK7FRY4zA4lXtHE1-RKJ3Bmz2ks"
-                        class="btn btn-primary" target="_blank">Ir a la nota</a>
-                </div>
-            </div>
             </div>
         </section>
 
         <section class="mateo">
             <div class="tituloytexto">
                 <h3>Mateo</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste quos ducimus perferendis deleniti
-                    repellat
-                    corporis facilis esse autem ad saepe ab maxime harum suscipit, voluptatibus at vel adipisci.
-                    Pariatur,
-                    ab.
+                <p>Mateo es un joven de 21 años que se unió al emprendimiento en el año 2019. Se caracteriza por tratar
+                    con mucho cariño a sus perros y ser muy paciente con ellos. Su ayuda es importante ya que su trabajo
+                    es encargarse del ingreso de perros nuevos a los grupos ya conformados.
+                    Actualmente cuenta con sus propios perros y realiza su trabajo en diferentes zonas a la par de
+                    Gianluca.
                 </p>
             </div>
             <div class="imgMateo">
@@ -83,19 +109,20 @@
 
     <footer>
         <div class="icono-home">
-            <a href=""><img src="../img/home.png" alt="icono home"></a>
+            <a href="../index.html"><img src="../img/home.png" alt="icono home"></a>
         </div class="icono">
 
         <div class="icono-instagram">
-            <a href="https://www.instagram.com/lospaseos/" target="_blank"><img src="../img/instagram.png" alt="icono instagram"></a>
+            <a href="https://www.instagram.com/lospaseos/" target="_blank"><img src="../img/instagram.png"
+                    alt="icono instagram"></a>
         </div>
 
         <div class="icono-facebook">
-            <a href=""><img src="../img/facebook.png" alt="icono facebook"></a>
+            <a href="#"><img src="../img/facebook.png" alt="icono facebook"></a>
         </div>
 
         <div class="icono-wpp">
-            <a href="index.html"><img src="../img/whatsapp.png" alt="icono whatsapp"></a>
+            <a href="#"><img src="../img/whatsapp.png" alt="icono whatsapp"></a>
         </div>
 
         <div class="copy">
